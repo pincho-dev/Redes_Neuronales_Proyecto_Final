@@ -1,0 +1,31 @@
+experimento,variante,parametro,ms_mediana,ms_min
+E1,fila_por_fila (stride 1),784,2.65502,2.18495
+E1,columna_por_columna (stride d),784,16.9045,16.6994
+E1,eigen X.transpose()*e,784,2.40907,1.86474
+E2,manual_dos_pasadas,11982,16.6311,16.0907
+E2,manual_fusionado,11982,15.4107,15.3045
+E2,eigen_dos_productos,11982,4.33361,3.65078
+E3,epoca_rowmajor,1,7.56891,6.91693
+E3,epoca_rowmajor,4,3.81016,3.36006
+E3,epoca_rowmajor,16,2.7792,2.44692
+E3,epoca_rowmajor,32,2.76301,2.41289
+E3,epoca_rowmajor,64,2.81421,2.41637
+E3,epoca_rowmajor,128,2.89913,2.32872
+E3,epoca_rowmajor,256,2.90705,2.39752
+E3,epoca_rowmajor,512,3.07234,2.65476
+E3,epoca_rowmajor,1024,4.21503,3.13217
+E3,epoca_rowmajor,2048,4.8146,3.71154
+E3,epoca_rowmajor,4096,4.8787,3.854
+E3,epoca_rowmajor,11982,5.00511,3.95674
+E4,RowMajor,32,2.98522,2.48892
+E4,ColMajor,32,7.46917,6.2957
+E4,RowMajor,256,2.96972,2.55375
+E4,ColMajor,256,4.05512,3.53912
+E4,RowMajor,2048,4.48126,3.74974
+E4,ColMajor,2048,4.48351,3.5483
+E4,RowMajor,11982,4.69323,3.95994
+E4,ColMajor,11982,3.68884,3.10473
+E5,por_valor (copia),0,9.21819,8.39859
+E5,referencia_const,0,5e-05,4e-05
+E5,Eigen::Ref,0,5e-05,4e-05
+E5,puntero_crudo,0,5e-05,4e-05

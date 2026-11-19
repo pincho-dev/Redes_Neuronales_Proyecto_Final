@@ -1,0 +1,7 @@
+.venv/
+cpp/build/
+cpp/compile_commands.json
+cpp/CMakeLists.txt.user
+data/
+__pycache__/
+*.pyc

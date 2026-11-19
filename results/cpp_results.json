@@ -1,0 +1,18 @@
+{
+  "lenguaje": "C++",
+  "versiones": {"eigen": "5.0.1-dev+bc3b3987", "compilador": "g++ 16.2.1 20260810", "simd": "AVX2 FMA AVX SSE, SSE2, SSE3, SSSE3, SSE4.1, SSE4.2"},
+  "hiperparametros": {"epochs": 200, "lr": 0.5, "batch": 256, "l2": 9.999999747e-05, "reps": 5},
+  "datos": {"n_train": 11982, "n_test": 1984, "d": 784, "MB": 41.82170868},
+  "modelos": [{
+    "modelo": "cpp_eigen_gd",
+    "fit_time_s": {"mean": 1.027956189, "std": 0.0401551663, "min": 0.974727536, "all": [1.092993222, 1.037043354, 1.036192546, 0.998824289, 0.974727536]},
+    "predict_time_ms": {"mean": 0.4708666, "std": 0.3015956935},
+    "rss_tras_imports_MB": 4.06640625,
+    "rss_tras_cargar_datos_MB": 46.0625,
+    "rss_pico_MB": 46.4765625,
+    "rss_extra_entrenamiento_MB": 0.4140625,
+    "loss_final": 0.08545873314,
+    "test": {"accuracy": 0.96875, "precision": 0.9710743802, "recall": 0.9650924025, "f1": 0.9680741504, "confusion": {"tn": 982, "fp": 28, "fn": 34, "tp": 940}},
+    "train": {"accuracy": 0.97629778, "precision": 0.973787234, "recall": 0.9777815758, "f1": 0.9757803172, "confusion": {"tn": 5977, "fp": 154, "fn": 130, "tp": 5721}}
+  }]
+}

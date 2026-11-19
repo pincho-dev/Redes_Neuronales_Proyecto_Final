@@ -1,0 +1,13 @@
+{
+  "speedup_fit_cpp_vs_numpy": 3.271516679394464,
+  "speedup_fit_cpp_vs_sklearn_lbfgs": 0.5724890191800052,
+  "speedup_fit_cpp_vs_sklearn_sgd": 1.812176881596285,
+  "speedup_predict_cpp_vs_sklearn": 3.9041244387690854,
+  "ratio_memoria_python_vs_cpp": 4.429315851403597,
+  "correlacion_pesos_numpy_cpp": 0.9999999999995967,
+  "max_diff_pesos_numpy_cpp": 2.235469100941856e-06,
+  "diff_loss_final": 2.980646461453462e-07,
+  "localidad_speedup_fila_vs_columna": 6.366995352200736,
+  "localidad_speedup_fusion": 1.079191730421071,
+  "lote_optimo_E3": 32
+}

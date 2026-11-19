@@ -1,0 +1,22 @@
+{
+  "digitos": {
+    "negativo_y0": 3,
+    "positivo_y1": 8
+  },
+  "n_train": 11982,
+  "n_test": 1984,
+  "n_caracteristicas": 784,
+  "proporcion_positivos_train": 0.4883158206939697,
+  "proporcion_positivos_test": 0.49092742800712585,
+  "pixeles_siempre_cero_train": 161,
+  "fraccion_pixeles_cero": 0.7854469842518881,
+  "intensidad_media": 0.145742267370224,
+  "tinta_media_por_clase": {
+    "Digito 3 (y=0)": 110.95963287353516,
+    "Digito 8 (y=1)": 117.7222900390625
+  },
+  "max_abs_corr_pixel_etiqueta": 0.6857165902153778,
+  "pca_varianza_2_componentes": 0.2022114396095276,
+  "pca_varianza_50_componentes": 0.8254170417785645,
+  "memoria_X_train_MB": 35.8348388671875
+}
